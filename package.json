@@ -1,0 +1,32 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todo list api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error no test specified todolist\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akitto69/todolistapi.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Tutorial"
+  ],
+  "author": "Ashley Kitto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akitto69/todolistapi/issues"
+  },
+  "homepage": "https://github.com/akitto69/todolistapi#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.3"
+  }
+}
